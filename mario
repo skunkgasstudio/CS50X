@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    
+    //Prompt user for height
+    do
+    {
+        height = get_int("Height: ");
+    }
+    
+    //Set conditions
+    while (height < 0 || height > 18);
+    
+    //Set rows
+    for (int i = 0; i <= height; i++)
+    {
+        //Set columns of spaces
+        for (spaces = (height - i); spaces > 0; spaces--)
+        {
+            printf(" ");
+        }
+        //Set columns of hashes
+        for (hashes = 1; hashes <= (i + 1); hashes++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
+
+}
