@@ -3,7 +3,7 @@
 // Problem Set 1
 
 //Ask for height of mario pyramid
-//Go back one step if user inputs a value for height that is less than 1 or greater than 8 </li>
+//Go back one step if user inputs a value for height that is less than 1 or greater than 8 
 //Use the value from step one to print i hashes and then begin a newline
 
 #include <stdio.h>
