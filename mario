@@ -9,34 +9,4 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void)
-{
-     //Get height input
-    do
-    {
-        height = get_int("Height: ");
-    }
-    while (height < 0 || height > 23);
-    //Rows
-    for (int i = 1; i <= height; i++)
-    {
-        //Spacing
-        for (spaces = (height - (i)); spaces > 0; spaces--)
-        {
-            printf(" ");
-        }
-        // Columns of hashes
-        for (hashes = 1; hashes <= i; hashes++)
-        {
-            printf("#");
-        }
-        printf("  ");
-        for (hashesSecond = 1; hashesSecond <= i; hashesSecond++)
-        {
-            printf("#");
-        }
-        printf("\n");
-    }
-    return 0;
 
-}
