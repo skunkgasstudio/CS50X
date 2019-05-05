@@ -1,5 +1,5 @@
 // Joseph P. Gomez (skunkgasstudio)
-// 27 April 2019
+// 1 May 2019
 // Problem Set 1 Mario
 
 //Ask for height of mario pyramid
@@ -11,17 +11,12 @@
 
 int main(void)
 {
-    //Variables for height, spaces, and hashes
-    int height;
-    int spaces;
-    int hashes;
-    int hashesSecond;
-    //Height
+     //Get height 
     do
     {
-        Height = get int("Height: ");
+        height = get_int("Height: ");
     }
-    //Conditions
+    while (height < 0 || height > 23);
 
 
 
