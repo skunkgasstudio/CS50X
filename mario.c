@@ -12,6 +12,10 @@
 
 int main(void)
 {
+    // declaring variables
+    int height;
+    int spaces;
+    int hashes;
     //Get height 
     do
     {
@@ -38,25 +42,3 @@ int main(void)
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
