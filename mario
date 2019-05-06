@@ -12,15 +12,31 @@
 
 int main(void)
 {
-     //Get height 
+    //Get height 
     do
     {
         height = get_int("Height: ");
     }
+    //Condition
     while (height < 0 || height > 23);
+    //Row
+    for(int i=1; i<=height;i++)
+    {
+    //spaces
+        for (spaces = (height - i); spaces > 0; spaces--)
+        {
+            printf(" ");
+        }
+        //hashes
+        for (hashes = 1; hashes <= (i + 1); hashes++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
 
-
-
+}
 
 
 
