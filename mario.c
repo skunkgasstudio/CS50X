@@ -31,7 +31,7 @@ int main(void)
         {
             printf(" ");
         }
-        //hashes
+    //hashes
         for (hashes = 1; hashes <= (i + 1); hashes++)
         {
             printf("#");
