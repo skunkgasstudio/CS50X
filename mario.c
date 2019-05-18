@@ -21,9 +21,9 @@ int main(void)
     {
         height = get_int("Height: ");
     }
-    //Condition
+    //condition
     while (height < 0 || height > 23);
-    //Row
+    //rows
     for(int i=1; i<=height;i++)
     {
     //spaces
