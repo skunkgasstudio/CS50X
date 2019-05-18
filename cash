@@ -1,1 +1,14 @@
-Joseph Gomez
+/** Joseph P. Gomez (skunkgasstudio)
+ * 18 May 2019
+ * Problem Set 1 Cash
+ *
+ *Ask for change input/ouput
+ *Count number of coins 
+ *hand customer change
+ */
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+
+int main(void)
+{
