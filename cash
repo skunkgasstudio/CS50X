@@ -5,6 +5,11 @@
  *Ask for change input/ouput
  *Count number of coins 
  *hand customer change
+ *
+ *Submit by doing the following:
+ *cd ~/workspace/pset1/cash
+ *submit50 cs50/2018/spring/cash
+ *
  */
 #include <stdio.h>
 #include <cs50.h>
@@ -12,3 +17,7 @@
 
 int main(void)
 {
+
+
+
+
