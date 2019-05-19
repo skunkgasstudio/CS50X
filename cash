@@ -17,6 +17,20 @@
 
 int main(void)
 {
+    int intQuarters;
+    int intDime;
+    int intNickle;
+    int intPenny;
+    int changeOutput = 0;
+
+    float changeInput;
+    //Prompt for change 
+    do
+    {
+        changeInput = get_float("money owed: ");
+    }
+    while (changeInput < 0)
+
 
 
 
