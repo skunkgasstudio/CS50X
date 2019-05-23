@@ -2,9 +2,19 @@
  * 18 May 2019
  * Problem Set 1 Cash
  *
+ *Psudocode
  *Ask for change input/ouput
  *Count number of coins 
- *hand customer change
+ *
+ *Use the largest coin possible
+ *Can I use a quarter? ($0.25)
+ *Can I use another quarter?
+ *Can I use a dime? ($0.10)
+ *Can I use another dime?
+ *Can I use a nickel? ($0.05)
+ *Can I use another nickel?
+ *Can I use a penny? ($0.01)
+ *Can I use another penny?
  *
  *Submit by doing the following:
  *cd ~/workspace/pset1/cash
@@ -29,9 +39,33 @@ int main(void)
     {
         changeInput = get_float("money owed: ");
     }
-    while (changeInput < 0)
-
-
-
+    while (changeInput < 0);
+    //Round to nearest cent
+    //Get cents from the dollar input
+    int cents = round(changeInput * 100);
+    //Get amount of quarters
+    for (intQuarter = 1; cents >= 25; intQuarter++)
+    {
+        cents -= 25;
+        changeOutput += 1;
+    }
+ //Get amount of quarters
+    for (intQuarter = 1; cents >= 25; intQuarter++)
+    {
+        cents -= 25;
+        changeOutput += 1;
+    }
+ //Get amount of quarters
+    for (intQuarter = 1; cents >= 25; intQuarter++)
+    {
+        cents -= 25;
+        changeOutput += 1;
+    }
+ //Get amount of quarters
+    for (intQuarter = 1; cents >= 25; intQuarter++)
+    {
+        cents -= 25;
+        changeOutput += 1;
+    }
 
 
